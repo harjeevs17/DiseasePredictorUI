@@ -1,0 +1,21 @@
+.model-male-front{
+    color: #1576d1;
+    fill: currentColor;
+    display: inline-block;
+    vertical-align: top;
+    width: 168px;
+    height: 320px;
+}
+.body-area{
+    cursor: pointer;
+    opacity: 0;
+}
+.body-area-head:hover,.body-area-eyes:hover,.body-area-nose:hover,.body-area-oral_cavity:hover,.body-area-neck_or_throat:hover,.body-area-upper_abdomen:hover{
+    opacity: 0.5;
+}
+.body-area-upper_arm:hover,.body-area-forearm:hover,.body-area-mid_abdomen:hover,.body-area-chest:hover,.body-area-lower_abdomen:hover,.body-area-sexual_organs:hover{
+    opacity: 0.5;
+}
+.body-area-hand:hover,.body-area-thigh:hover,.body-area-knee:hover,.body-area-foot:hover,.body-area-lower_leg:hover{
+    opacity: 0.5;
+}
