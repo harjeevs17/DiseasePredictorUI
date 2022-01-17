@@ -13,7 +13,7 @@ export const Main = ()=>{
         <div className="container">
             <div className="inner">
                <Mark symp1 = {setSymp} symp2 = {Symp}/>
-                <Button onClick={handleChange}>Find Disease</Button>
+               
             </div>
         </div>
     )
