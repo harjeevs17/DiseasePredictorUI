@@ -3,8 +3,8 @@
     fill: currentColor;
     display: inline-block;
     vertical-align: top;
-    width: 168px;
-    height: 320px;
+    height: 650px;
+    padding: 25px;
 }
 .body-area{
     cursor: pointer;
@@ -18,4 +18,9 @@
 }
 .body-area-hand:hover,.body-area-thigh:hover,.body-area-knee:hover,.body-area-foot:hover,.body-area-lower_leg:hover{
     opacity: 0.5;
+}
+img{
+    height: 45px;
+    width: 100%;
+    margin: 2px;
 }
