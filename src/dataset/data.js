@@ -1,11 +1,25 @@
 export const Symptoms = {
-    'eyes':['irritation','blurred_and_distorted_vision','blindness'],
-    'chest':['headache','anixiety','nausea'],
-    'upper_arm':['headache11','anixiety22','nausea33'],
-    'nose':['continuous_sneezing','congestion'],
+    
+    'chest':['chest_pain','palpitations'],
+    'eyes':['pain_behind_the_eyes', 'puffy_face_and_eyes', 'redness_of_eyes', 'sunken_eyes', 'visual_disturbances', 'watering_from_eyes', 'yellowing_of_eyes'],
+    'foot':['swollen_legs'],
+    'hands':['brittle_nails', 'inflammatory_nails', 'skin_peeling', 'small_dents_in_nails'],
+    'head':['coma', 'dizziness', 'fatigue', 'headache', 'high_fever', 'lethargy', 'loss_of_balance', 'mild_fever', 'mood_swings', 'nausea', 'pus_filled_pimples', 'restlessness', 'sinus_pressure', 'spinning_movements', 'sweating'],
     'knee':['joint_pain','swelling_joints','knee_pain'],
-    'mid_abdomen':['stomach_pain', 'constipation', 'distention_of_abdomen', 'increased_appetite','excessive_hunger'],
-    'thigh':['hip_joint_pain'],
+    'lower_abdomen':['bloody_stool', 'continuous_feel_of_urine', 'fluid_overload', 'pain_during_bowel_movements', 'passage_of_gases'],
+    'lower_arm':['swollen_blood_vessels'],
+    'lower_leg':['bloody_stool', 'continuous_feel_of_urine', 'fluid_overload', 'pain_during_bowel_movements', 'passage_of_gases'],
+    'mid_abdomen':['acidity', 'acute_liver_failure', 'back_pain', 'belly_pain', 'congestion', 'constipation', 'dehydration', 'diarrhoea', 'excessive_hunger', 'hip_joint_pain', 'history_of_alcohol_consumption', 'increased_appetite', 'indigestion', 'irregular_sugar_level', 'obesity', 'stomach_bleeding', 'stomach_pain', 'swelling_of_stomach', 'weight_gain', 'weight_loss'],
+    'mouth':['cough', 'drying_and_tingling_lips', 'loss_of_appetite', 'mucoid_sputum', 'patches_in_throat', 'phlegm', 'rusty_sputum', 'ulcers_on_tongue', 'vomiting'],
+    'neck':['neck_pain', 'stiff_neck', 'throat_irritation'],
+    'nose':['breathlessness', 'continuous_sneezing', 'loss_of_smell', 'red_sore_around_nose', 'runny_nose'],
+    'sexual':['dark_urine', 'irritation_in_anus', 'pain_in_anal_region', 'spotting_ urination', 'yellow_urine'],
+    'thigh':['muscle_pain','hip_joint_pain'],
+    'upper_abdomen':['distention_of_abdomen', 'fast_heart_rate','internal_itching'],
+    'upper_arm':['swelling_joints','weakness_in_limbs']
+
+
+
 };
 
 export const DiseaseDetails = {
@@ -67,7 +81,8 @@ export const DiseaseDetails = {
     Symptoms include unexpected weight loss, rapid or irregular heartbeat, sweating and irritability, although the elderly often experience no symptoms.\
     Treatments include radioactive iodine, medication and sometimes surgery.",
     "Hypoglycemia":"Hypoglycemia is a condition in which your blood sugar (glucose) level is lower than normal. Glucose is your body's main energy source. Hypoglycemia is often related to diabetes treatment. But other drugs and a variety of conditions — many rare — can cause low blood sugar in people who don't have diabetes.",
-    "Osteoarthristis":"Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of the bones wears down over time. Although osteoarthritis can damage any joint, the disorder most commonly affects joints in your hands, knees, hips and spine.",
+    "Osteoarthristis":"Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide.\
+     It occurs when the protective cartilage that cushions the ends of the bones wears down over time. Although osteoarthritis can damage any joint, the disorder most commonly affects joints in your hands, knees, hips and spine.",
     "Arthritis":"Arthritis is the swelling and tenderness of one or more joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.",
     "(vertigo) Paroymsal  Positional Vertigo":"Paroxysmal positional vertigo (BPPV) is triggered by certain changes in head position, such as tipping the head up or down. It's rarely serious unless it increases the risk of falling.\
     People can experience dizziness, a spinning sensation (vertigo), lightheadedness, unsteadiness, loss of balance and nausea.\
