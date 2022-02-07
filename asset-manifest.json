@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DiseasePredictorUI/static/css/main.4c378325.css",
+    "main.css": "/DiseasePredictorUI/static/css/main.d74d33cb.css",
     "main.js": "/DiseasePredictorUI/static/js/main.516d3ac8.js",
     "static/js/787.1a897b68.chunk.js": "/DiseasePredictorUI/static/js/787.1a897b68.chunk.js",
     "static/media/logo.png": "/DiseasePredictorUI/static/media/logo.1145a696df17f3cd12b8.png",
     "index.html": "/DiseasePredictorUI/index.html",
-    "main.4c378325.css.map": "/DiseasePredictorUI/static/css/main.4c378325.css.map",
+    "main.d74d33cb.css.map": "/DiseasePredictorUI/static/css/main.d74d33cb.css.map",
     "main.516d3ac8.js.map": "/DiseasePredictorUI/static/js/main.516d3ac8.js.map",
     "787.1a897b68.chunk.js.map": "/DiseasePredictorUI/static/js/787.1a897b68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c378325.css",
+    "static/css/main.d74d33cb.css",
     "static/js/main.516d3ac8.js"
   ]
 }
