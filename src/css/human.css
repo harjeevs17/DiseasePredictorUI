@@ -67,9 +67,9 @@
   }
   .inner{
     width: 700px;
-    margin: 120px auto;
+  
     display: flex;
-    justify-content: flex-start;
+    
     flex-direction: column;
   }
   .model-male-front{
