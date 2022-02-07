@@ -85,7 +85,7 @@ export const Mark = (props)=>{
       setHuman(false)
       let data11 = new URLSearchParams();
       data11.append('symptoms',finalSymptoms);
-      const response = await fetch('http://localhost:5000/getP', {method: 'POST' ,body:data11
+      const response = await fetch('https://disease-predictor-api-endpoint.herokuapp.com/getP', {method: 'POST' ,body:data11
       }).then(response => {return response.json()})
       .then(data => {
           setLoader(false)
