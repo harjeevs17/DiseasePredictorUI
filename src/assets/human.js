@@ -42,7 +42,7 @@ export const Mark = (props)=>{
     })
     useEffect(()=>{
         if(finalSymptoms.length!=0){
-          console.log(finalSymptoms)
+          //console.log(finalSymptoms)
           dataBoy()
         };
     },[finalSymptoms]);
@@ -89,7 +89,7 @@ export const Mark = (props)=>{
       }).then(response => {return response.json()})
       .then(data => {
           setLoader(false)
-          console.log(data.final_prediction)
+          //console.log(data.final_prediction)
           setDisease(data.final_prediction)
       })
     }
@@ -109,17 +109,17 @@ export const Mark = (props)=>{
             [AffectedArea]: category
           }))
         } 
-       console.log("Truth11"+God)
+       //console.log("Truth11"+God)
         var str = JSON.stringify(God);
       str = JSON.stringify(God, null, 4); // (Optional) beautiful indented output.
-      console.log(str);
+      //console.log(str);
     }
 
     
     const symptomsList = (
      SymptomsListData.map((item,key)=>{
-       console.log("data"+props.symp2)
-       console.log("item"+item)
+       //console.log("data"+props.symp2)
+       //console.log("item"+item)
        return(<label className="container"><input
             type="checkbox"
             value={key}
