@@ -66,10 +66,7 @@
     transform: rotate(45deg);
   }
   .inner{
-    width: 700px;
-  
     display: flex;
-    
     flex-direction: column;
   }
   .model-male-front{
