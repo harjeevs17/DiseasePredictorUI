@@ -182,14 +182,14 @@ export const Mark = (props)=>{
         {Loader?<><p><i>Predicting disease based upon the specified symptoms</i></p><Button appearance="link" loading>
           Link
         </Button></>:""}
-        {Disease!=""?<div><Panel header="Based upon the specified symptoms you may have"shaded>
+        {Disease!=""?<div className="infoCard"><div header="Based upon the specified symptoms you may have"shaded>
          <div className="title">
           {Disease!=""?<p>{Disease}</p>:""}
           </div>
           <div ><p>{DiseaseDetails[Disease]}</p></div>
           <p>&nbsp;</p>
           <Button onClick={resetApp}>Diagnose Again</Button>
-        </Panel></div>:""}
+        </div></div>:""}
        
 
 

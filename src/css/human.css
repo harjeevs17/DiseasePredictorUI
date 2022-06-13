@@ -66,8 +66,11 @@
     transform: rotate(45deg);
   }
   .inner{
+    height: 90vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .model-male-front{
     margin:auto;
@@ -83,3 +86,13 @@
     font-size: 20px;
     font-weight: 600;
   }
+  .infoCard{
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: 451px;
+}
+  
